@@ -19,7 +19,7 @@ public class HolaMundo {
         okButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                System.out.println("Hola");
+                System.out.println("a");
                 i++;
                 resultado.setText("clickeaste "+i+" veces");
             }
